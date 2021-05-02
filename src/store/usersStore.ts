@@ -10,7 +10,6 @@ interface User {
 
 export class UsersStore {
   users: User[] = [];
-  props: string[] = [];
 
   constructor() {
     makeAutoObservable(this);
