@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { createContext, useContext } from 'react';
-import { UsersStore } from './usersStore';
+import { UsersStore } from './store/usersStore';
 
 interface UsersProviderProps {
   store: UsersStore;

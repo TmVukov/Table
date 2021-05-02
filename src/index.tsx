@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { UsersProvider } from './usersContext'
-import { UsersStore } from './usersStore';
+import { UsersStore } from './store/usersStore';
 
 const store = new UsersStore()
 
